@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Manuela</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+  <header>
+
+<!--Logo-->
+  <div class="logo">
+    <img class="img-logo" src="/Users/manuela/devacademy/Manuela-Ovalle.github.io/img/logo.PNG" alt="Manuela Ovalle logo">
+    <h3 class="header-title">MANUELA OVALLE</h3>
+  </div>
+
+  <!-- Top Navigation Menu-->
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  </header>
+  
+  <body id="contact-page">
+
+    <h1 id="contact-title">Contact Manuela</h1>
+    <p id="description">Fill out the form to get a hold of me, and I'll be in touch asap.</p>
+
+    <form id="contact-form">
+
+      <!-- text inputs-->
+      <div class="text-input">
+        <label id="name-label">Name</label><br>
+        <input id="name" placeholder="Full name" type="text" required>
+        <br>
+        <label id="email-label">Email</label><br>
+        <input id="email" placeholder="Email address" type="email" required> 
+      <br>
+      <label id="phone-label">Phone number</label><br>
+      <input id="contact-number" type="number"  min-number="10000" max-number="999999999999" placeholder="Contact number" required>
+    </div>
+
+    <!-- Dropdown-->
+    <div class="dropdown">
+
+    <h3 class="h3-header">How did you find out about this website?</h3>    
+
+      <select id="dropdown" label="how-did-you-hear-about-me?">
+    <option id="choose-one" value="choose one">Choose one</option>
+    <option id="google" value="google">Google</option>
+    <option id="fb" value="fb">facebook</option>
+    <option id="ig" value="ig">Instagram</option>
+    <option id="word-of-mouth" value="word-of-mouth">Word of mouth</option>
+  </select> 
+
+<!--Preferred contact method-->
+<div class="radio-buttons">
+<h3 class="h3-header">How would you like to be contacted?</h3>
+
+<label id="radio-label">Email</label>
+<input checked="Email" name="preferred contact method" id="Email" type="radio" value="email" ></input>
+
+<label id="radio-label">Text Message</label>
+<input name="preferred contact method" id="text-msg" id="text-msg" type="radio" value="email"></input>
+
+<label id="radio-label">Phone call</label>
+<input name="preferred contact method" id="phone-call" type="radio" value="phone-call" ></input>
+
+    </div>
+<br>
+<!-- Text area -->
+<h3 class="h3-header">Additional Comments
+</h3>
+<textarea cols="20" id="comments" name="additional comments"rows="5">type here</textarea>
+
+<!--submit button-->
+    <div class="submit-button">
+      <button id="submit">Submit</button>
+    </div>
+
+    </form>
+</body>
