@@ -228,9 +228,21 @@ h3{
   }
 }
 
+@media(min-width:1024px){
+  #home-page{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
 @media(min-width:1440px){
   #contact-form{
     margin-left :300px;
   margin-right :300px;
+  }
+
+  #home-page{
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
