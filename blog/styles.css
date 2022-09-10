@@ -77,6 +77,16 @@ footer{
   text-align: center;
 }
 
+.blog-img{
+display: block;
+margin-left:auto;
+margin-right: auto;
+margin-top:35px;
+width:60%;
+border-radius:25px;
+border:5px solid #FF7F3F;
+}
+
 .plan-questions{
   align-items: center;
   background-color: #ffea8e;
