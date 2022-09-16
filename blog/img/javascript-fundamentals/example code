@@ -1,0 +1,20 @@
+
+   Traffic status:
+   if traffic = bad : "go different way"
+  if traffic is good = "keep going"
+  else = stay home 
+   
+
+
+  let badTraffic = += 20
+  let goodTraffic = -= 20
+
+
+   if (traffic >= 15 && traffic < 20) {
+      console.log("keep going")
+    } else if (traffic >= 20 && traffic < 25){
+      console.log("go a different way")
+    } else{
+      console.log("stay home")
+    }
+  

@@ -96,3 +96,9 @@ border:5px solid #FF7F3F;
   border-radius: 12%;
   
 }
+
+.img-caption{
+  font-size: smaller;
+  color: #707070;
+  font-weight: lighter;
+}
